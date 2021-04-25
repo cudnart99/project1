@@ -1,0 +1,175 @@
+*{
+	font-family: segoe ui;
+}
+body {
+  background : url("picture/background.png") no-repeat center fixed;
+  background-size: cover;
+}
+
+h1.tieude{
+	font-size: 50px;
+	text-align : center;
+	color : purple;
+}
+
+.bo{
+	position : relative;
+	width : 100%;
+	height : 500px;
+
+}
+
+.cot1_lop1{
+	border-radius: 10%;
+	position: absolute;
+	bottom : 0;
+	left : 0;
+	width : 450px;
+	height : 500px;
+	background-color : blue;
+}
+
+.cot1_lop2 img{
+	display : block;
+	padding-top : 30px;
+	margin : auto;
+	width : 430px;
+	height : auto;
+}
+
+h2.logo{
+	text-align : center;
+}
+
+img.logo{
+	padding-top : 30px;
+	display: block;
+	margin : auto;
+	width : 300px;
+	height : 330px;
+}
+
+ul.none{
+	list-style-type: none;
+}
+
+.rotate:hover{
+	transform: rotateY(360deg);
+	transition: 2s;
+}
+
+.cot1_lop2{
+	border-radius: 10%;
+	width : 450px;
+	height : 500px;
+	position: absolute;
+	bottom : 0;
+	left : 0;
+	opacity: 0;
+
+}
+
+.cot1_lop2:hover{
+	border-radius: 10%;
+	width : 450px;
+	height : 500px;
+	position: absolute;
+	bottom : 0;
+	left : 0;
+	background-color : yellow;
+	opacity: 1;
+	transition : 1s;
+}
+
+.cot2_lop1{
+	border-radius: 10%;
+	position: absolute;
+	bottom : 0;
+	left : 550px;
+	width : 450px;
+	height : 500px;
+	background-color : red;
+}
+
+.cot2_lop2{
+	border-radius: 10%;
+	width : 450px;
+	height : 500px;
+	position: absolute;
+	bottom : 0;
+	left : 550px;
+	opacity: 0;
+}
+
+.cot2_lop2:hover{
+	border-radius: 10%;
+	width : 450px;
+	height : 500px;
+	position: absolute;
+	bottom : 0;
+	left : 550px;
+	background-color : yellow;
+	opacity: 1;
+	transition : 1s;
+}
+
+.web {
+	width : 70%;
+}
+
+.chuthich{
+	font-family: 'Amatic SC', cursive;
+	font-size : 20px;
+	position : fixed;
+	right : 73px;
+	top : 100px;
+
+}
+.animation{
+	position : fixed;
+	right : 100px;
+	top : 140px;
+	background : url("picture/0.jpg");
+	background-size: cover;
+	border-radius: 50%;
+	width : 150px;
+	height :150px;
+	animation-name: honkai;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay : 1.5s;
+}
+
+.animation:hover{
+	position : fixed;
+	right : 100px;
+	top : 140px;
+	background : url("picture/0.jpg");
+	background-size: cover;
+	border-radius: 50%;
+	width : 150px;
+	height :150px;
+	animation-name: honkai;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-delay : 1.5s;
+	transform: rotateY(360deg);
+	transition: 2s;
+}
+
+@keyframes honkai {
+  0%   {background : url("picture/0.jpg");border-radius: 50%; background-size: cover; width : 150px; height : 150px;}
+  10%   {background : url("picture/1.jpg");border-radius: 50%; background-size: cover; width : 150px; height : 150px;}
+  20%   {background : url("picture/2.jpg");border-radius: 50%; background-size: cover; width : 150px; height : 150px;}
+  30%   {background : url("picture/3.jpg");border-radius: 50%; background-size: cover; width : 150px; height : 150px;}
+  40%   {background : url("picture/4.jpg");border-radius: 50%; background-size: cover; width : 150px; height : 150px;}
+  50%   {background : url("picture/5.jpg");border-radius: 50%; background-size: cover; width : 150px; height : 150px;}
+  60%   {background : url("picture/6.jpg");border-radius: 50%; background-size: cover; width : 150px; height : 150px;}
+  70%   {background : url("picture/7.jpg");border-radius: 50%; background-size: cover; width : 150px; height : 150px;}
+  80%   {background : url("picture/8.jpg");border-radius: 50%; background-size: cover; width : 150px; height : 150px;}
+  90%   {background : url("picture/9.jpg");border-radius: 50%; background-size: cover; width : 150px; height : 150px;}
+  100%   {background : url("picture/10.jpg");border-radius: 50%; background-size: cover; width : 150px; height : 150px;}
+  
+}
